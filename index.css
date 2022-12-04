@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  max-width: 500px;
+  min-width: 500px;
+  background-color: rgb(20, 23, 36);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.greenText {
+  color: rgb(63, 174, 100);
+}
+
+.horizontal-line {
+  border: 1px solid rgb(41, 46, 66);
+  width: 100%
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  color: white;
+}
+
+.container {
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#input-box {
+  margin-top: 2rem;
+  padding: 6px 8px;
+  width: 6rem;
+  background-color: rgb(41, 46, 66);
+  border: 1px solid rgb(63, 174, 100);
+  border-radius: 8px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.generate-btn, .clear-btn {
+  padding: 12px;
+  width: 11rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: rgb(63, 174, 100);
+  color: white;
+}
+
+.generate-btn:hover, .clear-btn:hover {
+  cursor: pointer;
+  outline: 1px solid white;
+}
+
+.passwords {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+#password-one, #password-two {
+  background-color: rgb(41, 46, 66);
+  border: none;
+  color:rgb(63, 174, 100);
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 14px;
+  max-width: 10rem;
+}
+
+.copy-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
